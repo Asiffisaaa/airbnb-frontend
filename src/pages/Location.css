@@ -1,0 +1,27 @@
+.location-page {
+  padding: 30px 50px;
+  background: white;
+  min-height: 100vh;
+  cursor: pointer;
+}
+
+.location-banner {
+  margin-bottom: 30px;
+}
+
+.location-banner h1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.location-banner p {
+  color: #555;
+  font-size: 14px;
+}
+
+/* Grid of accommodations */
+.location-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 30px;
+}

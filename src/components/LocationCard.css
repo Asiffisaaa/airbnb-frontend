@@ -1,0 +1,61 @@
+/* src/components/LocationCard.css */
+.location-card {
+  display: grid;
+  grid-template-columns: 140px 1fr 140px;
+  gap: 20px;
+  align-items: center;
+  padding: 18px;
+  border-radius: 10px;
+  border: 1px solid #e8e8e8;
+  margin-bottom: 22px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.location-card-image img {
+  width: 140px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.location-card-body {
+  padding-right: 10px;
+}
+
+.location-card-type {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 6px;
+}
+
+.location-card-title {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+.location-card-meta {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.location-card-amenities {
+  margin-top: 8px;
+  color: #999;
+  font-size: 13px;
+}
+
+.location-card-price {
+  text-align: right;
+}
+
+.price-amount {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.price-label {
+  font-size: 13px;
+  color: #666;
+}

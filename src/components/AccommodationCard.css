@@ -1,0 +1,58 @@
+/* Featured Stays Card Styling */
+/* src/components/AccommodationCard.css */
+
+.fs-card {
+  width: 100%;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #fff;
+  cursor: default;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.fs-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.fs-card-img {
+  width: 100%;
+  padding-top: 65%; /* image height ratio */
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+
+.fs-card:hover .fs-card-img {
+  transform: scale(1.04);
+}
+
+.fs-card-info {
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.fs-title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.fs-location {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.fs-price {
+  margin: 4px 0 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #111;
+}

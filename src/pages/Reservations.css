@@ -1,0 +1,42 @@
+.reservations-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.reservations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reservation-card {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+.reservation-thumb {
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.reservation-info h2 {
+  margin: 0 0 5px 0;
+}
+
+.reservation-total {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.delete-res-btn {
+    color:white;
+    background-color: rgb(243, 70, 99);
+    border-radius: 10%;
+    border: grey;
+}
