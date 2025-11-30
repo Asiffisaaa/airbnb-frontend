@@ -1,16 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This is the frontend for my Airbnb Clone project, built in React with Vite. It includes both the user-facing Airbnb pages and the admin dashboard, which is located inside src/pages/admin. To run the project, install dependencies with npm install and start the development server with npm run dev. The app usually runs at http://localhost:5173. The user interface includes the Home Page, Location Page, and Listing Details Page, while the admin dashboard includes login, create listing, edit listing, and dashboard views. All pages communicate with the backend API at http://localhost:5000 using Axios, and admin features require the stored JWT token. The project follows the structure and requirements specified in the Airbnb Capstone brief and rubric.
