@@ -5,16 +5,16 @@ const AdminAuthContext = createContext();
 export const AdminAuthProvider = ({ children }) => {
   const [admin, setAdmin] = useState(null);
 
-  const adminLogin = (username) => {
+  const adminlogin = (username) => {
     setAdmin({ username });
   };
 
-  const adminLogout = () => {
+  const adminlogout = () => {
     setAdmin(null);
   };
 
   return (
-    <AdminAuthContext.Provider value={{ admin, adminLogin, adminLogout }}>
+    <AdminAuthContext.Provider value={{ admin, adminlogin, adminlogout }}>
       {children}
     </AdminAuthContext.Provider>
   );
